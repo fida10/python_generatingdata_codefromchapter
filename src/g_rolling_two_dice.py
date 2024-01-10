@@ -34,6 +34,8 @@ fig = px.bar(
         "x": "Die cumulative value",
         "y": "Frequency of value",
     },
+    # hover_name=frequencies
+    # can add hover elements using this, but need a list
 )
 
 fig.update_layout(xaxis_dtick=1)
